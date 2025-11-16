@@ -14,7 +14,7 @@ export const Notifications: React.FC = () => {
   const [error, setError] = useState<string | null>(null);
 
   // ✅ Estado para conexión en tiempo real
-  const [isConnected, setIsConnected] = useState(false);
+  const [isConnected] = useState(false);
 
   const loadNotifications = async () => {
     try {
