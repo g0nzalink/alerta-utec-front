@@ -1,0 +1,25 @@
+<svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="32" height="32" fill="white"/>
+  
+  <!-- Logo UTEC simplificado para favicon -->
+  <!-- Parte izquierda inferior -->
+  <path d="M 4 12 L 4 20 L 10 24 L 10 16 Z" fill="#00A9E0"/>
+  
+  <!-- Parte izquierda superior -->
+  <path d="M 4 12 L 10 9 L 16 12 L 10 16 Z" fill="#2D2D2D"/>
+  
+  <!-- Centro -->
+  <path d="M 10 9 L 10 16 L 16 12 L 16 5 Z" fill="#00A9E0"/>
+  
+  <!-- Parte superior derecha -->
+  <path d="M 16 5 L 16 12 L 22 9 L 22 2 Z" fill="#2D2D2D"/>
+  <line x1="17" y1="7" x2="21" y2="5" stroke="white" stroke-width="0.8" opacity="0.7"/>
+  
+  <!-- Parte derecha clara -->
+  <path d="M 22 2 L 22 9 L 28 12 L 28 5 Z" fill="#33BFEA"/>
+  <line x1="23" y1="4" x2="27" y2="6" stroke="white" stroke-width="0.8" opacity="0.5"/>
+  <line x1="23" y1="6" x2="27" y2="8" stroke="white" stroke-width="0.8" opacity="0.5"/>
+  
+  <!-- Parte inferior derecha -->
+  <path d="M 16 12 L 22 9 L 22 16 L 16 20 Z" fill="#2D2D2D"/>
+</svg>

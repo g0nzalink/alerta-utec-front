@@ -1,0 +1,35 @@
+<svg width="180" height="60" viewBox="0 0 180 60" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Logo UTEC basado en la imagen oficial -->
+  
+  <!-- Parte izquierda inferior (Cyan claro) -->
+  <path d="M 8 25 L 8 40 L 20 47 L 20 32 Z" fill="#00A9E0"/>
+  
+  <!-- Parte izquierda superior (Negro) -->
+  <path d="M 8 25 L 20 18 L 32 25 L 20 32 Z" fill="#2D2D2D"/>
+  
+  <!-- Centro izquierdo (Cyan medio) -->
+  <path d="M 20 18 L 20 32 L 32 25 L 32 10 Z" fill="#00A9E0"/>
+  
+  <!-- Centro superior (Negro con líneas) -->
+  <path d="M 32 10 L 32 25 L 44 18 L 44 3 Z" fill="#2D2D2D"/>
+  <!-- Líneas decorativas blancas en centro -->
+  <line x1="34" y1="14" x2="42" y2="10" stroke="white" stroke-width="1.5" opacity="0.8"/>
+  <line x1="34" y1="18" x2="42" y2="14" stroke="white" stroke-width="1.5" opacity="0.8"/>
+  
+  <!-- Parte derecha superior (Cyan claro) -->
+  <path d="M 44 3 L 44 18 L 56 25 L 56 10 Z" fill="#33BFEA"/>
+  <!-- Líneas decorativas en parte derecha -->
+  <line x1="46" y1="8" x2="54" y2="12" stroke="white" stroke-width="1.5" opacity="0.6"/>
+  <line x1="46" y1="12" x2="54" y2="16" stroke="white" stroke-width="1.5" opacity="0.6"/>
+  <line x1="46" y1="16" x2="54" y2="20" stroke="white" stroke-width="1.5" opacity="0.6"/>
+  
+  <!-- Parte derecha inferior (Negro) -->
+  <path d="M 32 25 L 44 18 L 44 32 L 32 40 Z" fill="#2D2D2D"/>
+  
+  <!-- TEXTO UTEC -->
+  <text x="68" y="25" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="900" fill="#2D2D2D" letter-spacing="1.5">UTEC</text>
+  
+  <!-- Subtítulo -->
+  <text x="68" y="37" font-family="Arial, Helvetica, sans-serif" font-size="6.5" font-weight="400" fill="#2D2D2D" letter-spacing="0.3">UNIVERSIDAD DE INGENIERÍA</text>
+  <text x="68" y="44" font-family="Arial, Helvetica, sans-serif" font-size="6.5" font-weight="400" fill="#2D2D2D" letter-spacing="0.3">Y TECNOLOGÍA</text>
+</svg>
