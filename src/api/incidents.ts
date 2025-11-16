@@ -5,7 +5,7 @@ import { TOKEN_KEY, USER_KEY } from '../config';
 import { commentsAPI } from './comments';
 
 // URL de la API de incidentes - AWS Lambda
-const INCIDENTS_API_URL = 'https://m8iy12chv2.execute-api.us-east-1.amazonaws.com/dev';
+const INCIDENTS_API_URL = import.meta.env.VITE_API_BASE_URL || 'https://nal0woodc6.execute-api.us-east-1.amazonaws.com/dev';
 
 // Interfaces para el backend AWS Lambda
 interface BackendIncident {

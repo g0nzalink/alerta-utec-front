@@ -69,7 +69,7 @@ En la sección de **"Environment variables"**, agrega las siguientes variables:
 
 | Clave | Valor | Descripción |
 |-------|-------|-------------|
-| `VITE_API_BASE_URL` | `https://m8iy12chv2.execute-api.us-east-1.amazonaws.com/dev` | URL de tu API backend |
+| `VITE_API_BASE_URL` | `https://nal0woodc6.execute-api.us-east-1.amazonaws.com/dev` | URL de tu API backend |
 | `VITE_WS_URL` | `wss://rgs5nn9vgf.execute-api.us-east-1.amazonaws.com/dev` | URL de WebSocket |
 | `VITE_APP_ENV` | `production` | Entorno de la aplicación |
 

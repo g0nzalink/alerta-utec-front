@@ -19,7 +19,7 @@ interface BackendComment {
 }
 
 // URL base para la API de comentarios AWS Lambda
-const COMMENTS_BASE_URL = 'https://m8iy12chv2.execute-api.us-east-1.amazonaws.com/dev';
+const COMMENTS_BASE_URL = import.meta.env.VITE_API_BASE_URL || 'https://nal0woodc6.execute-api.us-east-1.amazonaws.com/dev';
 
 // Cliente HTTP específico para comentarios con autenticación
 const commentsHttpClient: AxiosInstance = axios.create({

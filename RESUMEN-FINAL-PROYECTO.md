@@ -136,7 +136,7 @@ src/
 
 ### 1. Sistema de Notificaciones (401 Unauthorized)
 ```
-URL: https://m8iy12chv2.execute-api.us-east-1.amazonaws.com/dev/notifications
+URL: https://nal0woodc6.execute-api.us-east-1.amazonaws.com/dev/notifications
 Error: Token JWT inválido
 ```
 

@@ -81,7 +81,7 @@ class AuthAPI {
       console.log('📤 Sending login request:', { email: credentials.email });
       
       // Usar fetch directamente en lugar de axios
-      const response = await fetch(`${import.meta.env.VITE_API_BASE_URL || 'https://m8iy12chv2.execute-api.us-east-1.amazonaws.com/dev'}/auth/login`, {
+      const response = await fetch(`${import.meta.env.VITE_API_BASE_URL || 'https://nal0woodc6.execute-api.us-east-1.amazonaws.com/dev'}/auth/login`, {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
@@ -231,7 +231,7 @@ class AuthAPI {
       });
       
       // Usar fetch directamente en lugar de axios para evitar problemas con interceptores
-      const response = await fetch(`${import.meta.env.VITE_API_BASE_URL || 'https://m8iy12chv2.execute-api.us-east-1.amazonaws.com/dev'}/auth/register`, {
+      const response = await fetch(`${import.meta.env.VITE_API_BASE_URL || 'https://nal0woodc6.execute-api.us-east-1.amazonaws.com/dev'}/auth/register`, {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',

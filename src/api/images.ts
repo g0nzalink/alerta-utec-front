@@ -3,7 +3,7 @@ import { TOKEN_KEY } from '../config';
 import { AppError } from '../utils/helpers';
 
 // URL base para la API de imágenes AWS Lambda
-const IMAGES_API_URL = 'https://m8iy12chv2.execute-api.us-east-1.amazonaws.com/dev';
+const IMAGES_API_URL = import.meta.env.VITE_API_BASE_URL || 'https://nal0woodc6.execute-api.us-east-1.amazonaws.com/dev';
 
 // Cliente HTTP para imágenes con autenticación
 const imagesHttpClient: AxiosInstance = axios.create({

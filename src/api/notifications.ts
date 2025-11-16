@@ -15,7 +15,7 @@ interface BackendNotification {
 }
 
 // URL base para la API de notificaciones AWS Lambda
-const NOTIFICATIONS_API_URL = 'https://m8iy12chv2.execute-api.us-east-1.amazonaws.com/dev';
+const NOTIFICATIONS_API_URL = import.meta.env.VITE_API_BASE_URL || 'https://nal0woodc6.execute-api.us-east-1.amazonaws.com/dev';
 
 // Cliente HTTP para notificaciones con autenticación
 const notificationsHttpClient: AxiosInstance = axios.create({

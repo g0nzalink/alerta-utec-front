@@ -4,7 +4,7 @@ import { AppError } from '../utils/helpers';
 import type { User } from '../types';
 
 // URL base para la API de usuarios AWS Lambda
-const USERS_API_URL = 'https://m8iy12chv2.execute-api.us-east-1.amazonaws.com/dev';
+const USERS_API_URL = import.meta.env.VITE_API_BASE_URL || 'https://nal0woodc6.execute-api.us-east-1.amazonaws.com/dev';
 
 // Cliente HTTP para usuarios con autenticación
 const usersHttpClient: AxiosInstance = axios.create({
