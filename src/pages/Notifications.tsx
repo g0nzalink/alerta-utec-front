@@ -13,6 +13,9 @@ export const Notifications: React.FC = () => {
   const [isLoading, setIsLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);
 
+  // ✅ Estado para conexión en tiempo real
+  const [isConnected, setIsConnected] = useState(false);
+
   const loadNotifications = async () => {
     try {
       setIsLoading(true);
@@ -27,6 +30,7 @@ export const Notifications: React.FC = () => {
       setIsLoading(false);
     }
   };
+
 
   useEffect(() => {
     loadNotifications();
