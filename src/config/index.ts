@@ -1,7 +1,7 @@
 
 // API Configuration
 export const API_BASE_URL = import.meta.env.VITE_API_BASE_URL || 'https://nal0woodc6.execute-api.us-east-1.amazonaws.com/dev';
-export const WEBSOCKET_URL = import.meta.env.VITE_WS_URL || 'wss://rgs5nn9vgf.execute-api.us-east-1.amazonaws.com/dev';
+export const WEBSOCKET_URL = import.meta.env.VITE_WS_URL || 'wss://qp9cvpquch.execute-api.us-east-1.amazonaws.com/dev';
 
 // App Configuration
 export const APP_NAME = 'Alerta UTEC';

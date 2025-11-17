@@ -4,7 +4,7 @@ import { TOKEN_KEY } from '../config';
 const WEBSOCKET_URL = 'wss://gsct6b4dbh.execute-api.us-east-1.amazonaws.com/dev';
 
 // Flag para habilitar/deshabilitar WebSocket en desarrollo
-export const WEBSOCKET_ENABLED = false; // ⚠️ Deshabilitado hasta que el backend esté listo
+export const WEBSOCKET_ENABLED = true; // ⚠️ Deshabilitado hasta que el backend esté listo
 
 // Tipos de mensajes WebSocket
 export type WebSocketMessageType = 
